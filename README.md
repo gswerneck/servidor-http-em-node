@@ -19,7 +19,7 @@ O programa pode ser executado de duas maneiras:
     - Ou se preferir, usar o terminal para passar os valores: 'curl localhost:3000/' e logo em seguida, o valor
     - Para parar a execução do programa: docker stop httpserver
     - Para excluir a imagem: docker image rmi "IMAGE ID"
-  * Se o procedimento acima nao funcionar, ou se você nao tiver o docker em seu dispositivo, execute do programa da seguinte forma:
+  * Se o procedimento acima nao funcionar, ou se você nao tiver o docker em seu dispositivo, execute o programa da seguinte forma:
     - Antes de tudo, você vai precisar ter o node instalado em sua máquina -> 'https://nodejs.org/en/download/'
     - Baixe e salve os arquivos da pasta files
     - O servidor for criado com o framework ExpressJS, então também é necessário ter esse módulo instalado. Para isso, abra o terminal e vá para a pasta do projeto, em seguida digite no terminal: npm i express
