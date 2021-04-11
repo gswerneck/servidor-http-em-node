@@ -1,0 +1,16 @@
+{
+  "name": "servidor_http",
+  "version": "1.0.0",
+  "description": "Segunda etapa do processo seletivo para a vaga de Estagio em Desenvolvimento de Software, no Instituto CERTI Sapientia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Gabriel Siqueira Werneck",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
