@@ -137,13 +137,14 @@ server.get('*' , (req, res) => {
         -> VALOR MENOR QUE -99999 (MENOS NOVENTA E NOVE MIL NOVECENTOS E NOVENTA E NOVE)
         -> VALOR NAO INTEIRO
     */
-   var num_float = 0
+   var validacao = 0
     for (let i=0; i < entrada.length; i++) {
-        if (entrada[i] == ',' || entrada[i] == '.') {
-            num_float++;
+        if (entrada[i] != '0' && entrada[i] != '1' && entrada[i] != '2' && entrada[i] != '3' && entrada[i] != '4' && entrada[i] != '5' && entrada[i] != '6' && entrada[i] != '7' && entrada[i] != '8' && entrada[i] != '9' && entrada[i] != '-') {
+            validacao++;
         }
     }
-    if(entrada > 99999 || entrada < -99999 || entrada == '' || num_float != 0) {
+
+    if(entrada > 99999 || entrada < -99999 || entrada == '' || validacao != 0) {
         numero_por_extenso += 'numero invalido';
     }
 
