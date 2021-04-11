@@ -135,9 +135,15 @@ server.get('*' , (req, res) => {
         -> GET VAZIO
         -> VALOR MAIOR QUE 99999 (NOVENTA E NOVE MIL NOVECENTOS E NOVENTA E NOVE)
         -> VALOR MENOR QUE -99999 (MENOS NOVENTA E NOVE MIL NOVECENTOS E NOVENTA E NOVE)
+        -> VALOR NAO INTEIRO
     */
-
-    if(entrada > 99999 || entrada < -99999 || entrada == '') {
+   var num_float = 0
+    for (let i=0; i < entrada.length; i++) {
+        if (entrada[i] == ',' || entrada[i] == '.') {
+            num_float++;
+        }
+    }
+    if(entrada > 99999 || entrada < -99999 || entrada == '' || num_float != 0) {
         numero_por_extenso += 'numero invalido';
     }
 
