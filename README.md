@@ -5,7 +5,7 @@
 ## Objetivo :dart:
 Repositório criado para avaliação da segunda etapa do processo seletivo para a vaga de Estágio em Desenvolvimento de Software, no Instituto CERTI Sapientia.
 
-## Instruções
+## Instruções :pencil:
 O programa pode ser executado de duas maneiras:
   * Caso seja de sua preferência usar o Docker, siga os seguintes passos:
     - Baixe e salve os arquivos da pasta files
@@ -28,12 +28,12 @@ O programa pode ser executado de duas maneiras:
     - Agora basta abrir o browser e digitar 'http://localhost:3000/' e logo em seguida, o valor
     - Ou se preferir, usar o terminal para passar os valores: 'curl localhost:3000/' e logo em seguida, o valor
 
-## Tecnologias
+## Tecnologias :computer:
 Para a criação desse programa, foram utilizadas as seguintes ferramentas:
   * Visual Studio Code
   * NodeJS
   * ExpressJS
   * Docker
 
-## Autor
+## Autor :sweat_smile:
 Gabriel Siqueira Werneck
